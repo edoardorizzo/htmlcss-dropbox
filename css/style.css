@@ -7,3 +7,41 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+:root{
+    --blue: #0061FF;
+    --lightblue: #B4D0E7;
+    --darkblue: #0D2481;
+    --white: #FFFFFF;
+    --black: #000000;
+    --grey: #DBDBDD;
+    --grape: #61082B;
+    --darkred: #D5001F;
+    --lightred: #FF1C1C;
+    --yellow: #FFD830;
+    --green: #A2D39B;
+    --lightgreen: #D1E9CD;
+}
+
+/* header  */
+#web-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--blue);
+    height: 40px;
+}
+
+.left-header,
+.right-header{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+}
