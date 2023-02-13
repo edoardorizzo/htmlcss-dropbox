@@ -28,8 +28,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--blue);
+    background-color: var(--white);
     height: 40px;
+    position: fixed;
+    width: 100%;
 }
 
 .left-header,
@@ -44,4 +46,51 @@ ul{
 
 li a{
     text-decoration: none;
+}
+
+/* main  */
+/* hero  */
+.container{
+    padding: 5rem 10rem;
+}
+
+.hero{
+    background-color: var(--lightblue);
+}
+
+.hero-content{
+    display: flex;
+}
+
+.hero-img{
+    max-width: 1000px;
+}
+
+.hero-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* business  */
+
+.small-container{
+    padding: 5rem 15rem;
+    max-width: 1280px;
+}
+
+.business-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col{
+    padding: 1rem;
+    border: 1px solid var(--grey);
+}
+
+.col-big{
+    padding: 1rem;
+    border: 1px solid var(--grey);
+    width: 1280px;
 }
