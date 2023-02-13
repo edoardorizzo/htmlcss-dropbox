@@ -94,3 +94,34 @@ li a{
     border: 1px solid var(--grey);
     width: 1280px;
 }
+
+/* comp-img-txt  */
+
+.partner{
+    display: flex;
+}
+
+.partner-img{
+    width: 5000px;
+}
+
+.partner-img img{
+    width: 100%;
+    height: 100%;
+}
+
+/* operation */
+
+.operation-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.operation-card{
+    width: calc(100% / 3 - 1rem);
+}
+
+.operation-card img{
+    max-width: 200px;
+}
