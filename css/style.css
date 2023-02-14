@@ -107,10 +107,24 @@ h1{
     margin-top: 4rem;
 }
 
+.business h2{
+    margin: 2rem 0;
+}
+
 .small-container{
-    padding: 3rem;
+    padding: 2rem;
     max-width: 1120px;
     margin: auto;
+}
+
+.radio-btn{
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.radio-btn input{
+    margin-right: 0.25rem;
 }
 
 .business-row{
@@ -121,15 +135,89 @@ h1{
 
 .col{
     width: calc(100% / 3 - 2rem);
-    padding: 1rem;
+    min-height: 762px;
     border: 1px solid var(--grey);
+    margin-bottom: 2rem;
+}
+
+hr{
+    border: 0.5px solid var(--grey);
+}
+
+.col-title{
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.col-container{
+    padding: 1rem;
+}
+
+.col-container h3{
+    margin: 0.5rem 0;
+}
+
+.col-container p{
+    margin: 0.5rem 0;
+    font-size: 12px;
+}
+.col-container a{
+    color: var(--blue);
+}
+
+.month{
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.column-icon{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    align-items: baseline;
+}
+
+.column-icon .fa{
+    margin-right: 0.5rem;
+}
+
+.col-container .primary-btn{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.short-hr{
+    margin: 2rem 0;
+    border: 0.5px solid var(--grey);
+    width: 40px;
+}
+
+.col-container h4{
+    margin-bottom: 1rem;
+}
+
+.col-container{
+    justify-content: space-between;
+}
+
+.fa-check{
+    color: var(--blue);
 }
 
 .col-big{
-    padding: 1rem;
     border: 1px solid var(--grey);
     width: 1280px;
 }
+
+.col-big-txt{
+    width: 50%;
+}
+
+.col-btn input{
+    padding: 1rem 2rem;
+}
+
 
 /* comp-img-txt  */
 
