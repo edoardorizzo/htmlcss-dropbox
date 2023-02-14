@@ -256,6 +256,9 @@ hr{
 }
 
 /* operation */
+.operation h2{
+    margin-bottom: 2rem;
+}
 
 .operation-row{
     display: flex;
@@ -264,23 +267,119 @@ hr{
 }
 
 .operation-card{
-    width: calc(100% / 3 - 1rem);
+    width: calc(100% / 3 - 3rem);
+    margin-bottom: 2rem;
 }
 
 .operation-card img{
-    max-width: 200px;
+    max-width: 100%;
+    margin-bottom: 1rem;
 }
 
+.operation-card h3{
+    margin-bottom: 1rem;
+}
+
+/* team */
+.team{
+    height: 200px;
+    margin: 2rem 0;
+}
+
+.team h2{
+    margin-bottom: 2rem;
+}
+
+.team a{
+    color: var(--blue);
+}
+
+
 /* .designit */
-.row-square{
+.left-block{
     display: flex;
     flex-wrap: wrap;
+    width: calc(100% / 3);
+    align-content: baseline;
 }
 
 .square{
-    width: calc(100% / 6);
-    height: 240px;
-    background-color: #0061FF;
+    width: calc(100% / 2);
+    aspect-ratio: 1/1;
+    align-items: center;
+    justify-content: center;
+}
+
+.square img{
+    width: 50%;
+}
+
+.green{
+    border: 8px solid var(--lightgreen);
+    background-color: var(--green);
+}
+
+.grape{
+    background-color: var(--grape);
+}
+
+.blue{
+    background-color: var(--blue);
+}
+
+.light-red{
+    background-color: var(--lightred);
+}
+
+.red{
+    background-color: var(--darkred);
+}
+
+.lightblue{
+    background-color: var(--lightblue);
+}
+
+.darkblue{
+    background-color: var(--darkblue);
+}
+
+.yellow{
+    background-color: var(--yellow);
+}
+
+.center-block{
+    width: calc(100% / 3);
+    background-color: var(--grey);
+}
+
+.big-square{
+    padding: 2rem;
+}
+
+.big-square img{
+    width: 50%;
+}
+
+.big-square hr{
+    margin: 2rem 0;
+    border: 0.5px solid var(--black);
+    width: calc(100% / 3);
+}
+
+.big-square p{
+    font-size: 12px;
+}
+
+.author{
+    display: block;
+    margin-top: 2rem;
+}
+
+.right-block{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    align-content: baseline;
 }
 
 /* accordion */
