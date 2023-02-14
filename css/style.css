@@ -47,9 +47,7 @@ ul{
     align-items: center;
 }
 
-.left-header,
-.right-header, 
-a{
+#web-header a{
     text-decoration: none;
     color: var(--black);
     margin: 0 1.5rem;
