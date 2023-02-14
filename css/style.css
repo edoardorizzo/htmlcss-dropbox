@@ -136,7 +136,7 @@ h1{
 
 .col{
     width: calc(100% / 3 - 2rem);
-    min-height: 762px;
+    /* min-height: 762px; */
     border: 1px solid var(--grey);
     margin-bottom: 2rem;
 }
