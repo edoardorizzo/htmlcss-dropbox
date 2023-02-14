@@ -389,7 +389,8 @@ hr{
 
 .agency-content{
     justify-content: space-between;
-    padding: 5rem 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .agency h2{
@@ -398,13 +399,26 @@ hr{
 
 .agency .secondary-btn{
     border: none;
+    padding: 0 1rem;
 }
 
 /* accordion */
 .accordion{
-    height: 300px;
-    background-color: #0D2481;
-    margin-bottom: 4rem;
+    margin: 4rem 0;
+}
+
+.accordion hr{
+    margin: 2rem 0;
+    border: 0.5px solid var(--black);
+}
+
+.row-accordion{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-chevron-down{
+    margin-right: 32px;
 }
 
 /* footer  */
