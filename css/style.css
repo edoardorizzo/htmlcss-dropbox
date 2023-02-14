@@ -219,19 +219,40 @@ hr{
 }
 
 
-/* comp-img-txt  */
+/* partner */
 
 .partner{
     display: flex;
 }
 
 .partner-img{
-    width: 5000px;
+    width: 1000px;
+    margin-right: 2rem;
 }
 
 .partner-img img{
     width: 100%;
     height: 100%;
+}
+
+.partner-txt{
+    width: 50%;
+}
+
+.partner-txt h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.partner-txt p{
+    margin: 1rem 0;
+}
+
+.secondary-btn{
+    background-color: var(--white);
+    color: var(--black);
+    padding: 0.5rem 0.5rem;
+    border: 0.5px solid var(--black);
 }
 
 /* operation */
