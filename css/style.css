@@ -40,13 +40,16 @@ body {
     z-index: 1;
 }
 
+.left-header, 
+.right-header,
 ul{
-    display: flex;
     list-style: none;
     align-items: center;
 }
 
-li a{
+.left-header,
+.right-header, 
+a{
     text-decoration: none;
     color: var(--black);
     margin: 0 1.5rem;
@@ -404,7 +407,7 @@ hr{
 
 /* accordion */
 .accordion{
-    margin: 4rem 0;
+    margin: 2rem 0;
 }
 
 .accordion hr{
@@ -423,7 +426,38 @@ hr{
 
 /* footer  */
 #web-footer{
-    height: 300px;
+    height: 440px;
     width: 100%;
-    background-color: black;
+    background-color: var(--black)
+}
+
+.footer-top{
+    justify-content: space-between;
+}
+
+.footer-top h4{
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.footer-top li{
+    list-style: none;
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.footer-top a{
+    color: var(--grey);
+    margin: 0;
+}
+
+.footer-bottom{
+    color: var(--grey);
+}
+
+.footer-bottom hr{
+    margin: 2rem 0;
+    border: 0.5px solid var(--grey);
+    width: 6rem;
 }
