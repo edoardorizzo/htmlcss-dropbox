@@ -37,23 +37,25 @@ body {
     height: 60px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 ul{
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 li a{
     text-decoration: none;
     color: var(--black);
-    margin: 0 1rem;
+    margin: 0 1.5rem;
 }
 
 .primary-btn{
     background-color: var(--blue);
     color: var(--white);
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 0.5rem;
     border: none;
 }
 
@@ -65,9 +67,13 @@ li a{
     margin: auto;
 }
 
+h1{
+    font-size: 52px;
+}
+
 .hero{
     background-color: var(--lightblue);
-    height: 50vh;
+    height: 55vh;
 }
 
 .hero-content{
@@ -77,6 +83,10 @@ li a{
 
 .hero-txt{
     width: 40%;
+}
+
+.hero-txt p{
+    margin: 1.5rem 0;
 }
 
 .hero-img{
