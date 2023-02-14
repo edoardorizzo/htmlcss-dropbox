@@ -23,6 +23,10 @@ body {
     --lightgreen: #D1E9CD;
 }
 
+.d-flex{
+    display: flex;
+}
+
 /* header  */
 #web-header{
     display: flex;
@@ -51,19 +55,30 @@ li a{
 /* main  */
 /* hero  */
 .container{
-    padding: 5rem 10rem;
+    padding: 5rem;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .hero{
     background-color: var(--lightblue);
+    height: 50vh;
 }
 
 .hero-content{
     display: flex;
+    position: relative;
+}
+
+.hero-txt{
+    width: 40%;
 }
 
 .hero-img{
-    max-width: 1000px;
+    width: 700px;
+    position: absolute;
+    left: 40%;
+    top: 10%;
 }
 
 .hero-img img{
@@ -73,9 +88,14 @@ li a{
 
 /* business  */
 
+.business{
+    margin-top: 4rem;
+}
+
 .small-container{
-    padding: 5rem 15rem;
-    max-width: 1280px;
+    padding: 3rem;
+    max-width: 1120px;
+    margin: auto;
 }
 
 .business-row{
@@ -124,4 +144,29 @@ li a{
 
 .operation-card img{
     max-width: 200px;
+}
+
+/* .designit */
+.row-square{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: calc(100% / 6);
+    background-color: #0061FF;
+}
+
+/* accordion */
+.accordion{
+    height: 300px;
+    background-color: #0D2481;
+    margin-bottom: 4rem;
+}
+
+/* footer  */
+#web-footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
 }
