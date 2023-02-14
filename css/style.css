@@ -382,6 +382,24 @@ hr{
     align-content: baseline;
 }
 
+/* agency */
+.agency{
+    background-color: var(--lightblue);
+}
+
+.agency-content{
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+.agency h2{
+    color: var(--grape);
+}
+
+.agency .secondary-btn{
+    border: none;
+}
+
 /* accordion */
 .accordion{
     height: 300px;
