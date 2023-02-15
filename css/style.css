@@ -67,7 +67,7 @@ ul{
 /* main  */
 /* hero  */
 .container{
-    padding: 5rem;
+    padding-top: 7rem;
     max-width: 1280px;
     margin: auto;
 }
@@ -78,27 +78,33 @@ h1{
 
 .hero{
     background-color: var(--lightblue);
-    height: 600px;
+    height: 550px;
 }
 
 .hero-content{
     display: flex;
-    position: relative;
+    justify-content: space-between;
+    margin-top: 2rem;
 }
 
 .hero-txt{
-    width: 40%;
+    width: 50%;
 }
 
 .hero-txt p{
-    margin: 1.5rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.hero-btn{
+    margin-bottom: 1.5rem;
 }
 
 .hero-img{
     width: 700px;
-    position: absolute;
+
+    /* position: absolute;
     left: 40%;
-    top: 10%;
+    top: 10%; */
 }
 
 .hero-img img{
@@ -107,7 +113,8 @@ h1{
 
 /* business  */
 #business h2{
-    margin: 2rem 0;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
 }
 
 .small-container{
