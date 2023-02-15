@@ -60,6 +60,10 @@ ul{
     border: none;
 }
 
+.primary-btn:hover{
+    background-color: var(--lightblue);
+}
+
 /* main  */
 /* hero  */
 .container{
@@ -74,7 +78,7 @@ h1{
 
 .hero{
     background-color: var(--lightblue);
-    height: 55vh;
+    height: 600px;
 }
 
 .hero-content{
@@ -99,16 +103,10 @@ h1{
 
 .hero-img img{
     width: 100%;
-    height: 100%;
 }
 
 /* business  */
-
-.business{
-    margin-top: 4rem;
-}
-
-.business h2{
+#business h2{
     margin: 2rem 0;
 }
 
@@ -222,7 +220,7 @@ hr{
 
 /* partner */
 
-.partner{
+#partner{
     display: flex;
 }
 
@@ -257,7 +255,7 @@ hr{
 }
 
 /* operation */
-.operation h2{
+#operation h2{
     margin-bottom: 2rem;
 }
 
@@ -404,11 +402,11 @@ hr{
 }
 
 /* accordion */
-.accordion{
+#accordion{
     margin: 2rem 0;
 }
 
-.accordion hr{
+#accordion hr{
     margin: 2rem 0;
     border: 0.5px solid var(--black);
 }
@@ -448,6 +446,7 @@ hr{
 .footer-top a{
     color: var(--grey);
     margin: 0;
+    text-decoration: none;
 }
 
 .footer-bottom{
